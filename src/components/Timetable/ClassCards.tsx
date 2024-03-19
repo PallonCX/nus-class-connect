@@ -32,7 +32,7 @@ const ClassCards: React.FC<ClassCardsProps> = ({ classes, startTime, rows, color
     const brightness = (r * 299 + g * 587 + b * 114) / 1000;
 
     // Use black text for bright background, and white text for dark background
-    return brightness > 125 ? '#000000' : '#ffffff';
+    return brightness > 125 ? '#000000B0' : '#ffffffB0';
   };
 
   return (
